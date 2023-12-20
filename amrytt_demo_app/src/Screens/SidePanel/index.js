@@ -6,6 +6,7 @@ import {
   setOpenEditForm,
   setOpenNewForm,
 } from "../../Redux/Actions/ModalActions";
+import AcUnitIcon from "@mui/icons-material/AcUnit";
 
 const SidePanel = () => {
   const styles = useStyle();
@@ -16,7 +17,9 @@ const SidePanel = () => {
   return (
     <div className={styles.mainArea}>
       <div className={styles.logoArea}>
-        <Button variant="text">Logo</Button>
+        <Button variant="text">
+          <AcUnitIcon fontSize="large"/>
+        </Button>
       </div>
       <div className={styles.optionsArea}>
         <Button variant="text" onClick={handleNewForm}>
