@@ -1,0 +1,212 @@
+[
+  {
+    "_id": {
+      "$oid": "64cbc2458a93f8bfd5d20a56"
+    },
+    "websiteURL": "https://www.qq.com",
+    "websiteDomain": "qq.com",
+    "name": "Jaisan Robert",
+    "profileLink": "https://cp.adsy.com/marketer/platform/publisher-page/97379",
+    "createdBy": {
+      "$oid": "64ad6a12ee78e892aa9c1ab8"
+    },
+    "process_status": true,
+    "process_count": 1,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2023-08-03T15:05:42.816Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-03T15:59:07.272Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64cbc2458a93f8bfd5d20aa9"
+    },
+    "websiteURL": "https://games.sina.com.cn",
+    "websiteDomain": "games.sina.com.cn",
+    "name": "Zhenming",
+    "profileLink": "https://cp.adsy.com/marketer/platform/publisher-page/100299",
+    "createdBy": {
+      "$oid": "64ad6a12ee78e892aa9c1ab8"
+    },
+    "process_status": false,
+    "process_count": 0,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2023-08-03T15:05:42.830Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-03T15:05:42.830Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64cbc2458a93f8bfd5d20aaa"
+    },
+    "websiteURL": "https://www.163.com",
+    "websiteDomain": "163.com",
+    "name": "Zhenming",
+    "profileLink": "https://cp.adsy.com/marketer/platform/publisher-page/100299",
+    "createdBy": {
+      "$oid": "64ad6a12ee78e892aa9c1ab8"
+    },
+    "process_status": false,
+    "process_count": 0,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2023-08-03T15:05:42.830Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-03T15:05:42.830Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64cbc2458a93f8bfd5d20aab"
+    },
+    "websiteURL": "https://edition.cnn.com",
+    "websiteDomain": "edition.cnn.com",
+    "name": "Jaisan Robert",
+    "profileLink": "https://cp.adsy.com/marketer/platform/publisher-page/97379",
+    "createdBy": {
+      "$oid": "64ad6a12ee78e892aa9c1ab8"
+    },
+    "process_status": false,
+    "process_count": 0,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2023-08-03T15:05:42.830Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-03T15:05:42.830Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64cbc2458a93f8bfd5d20aac"
+    },
+    "websiteURL": "https://edition.cnn.com",
+    "websiteDomain": "edition.cnn.com",
+    "name": "linn manson",
+    "profileLink": "https://cp.adsy.com/marketer/platform/publisher-page/48713",
+    "createdBy": {
+      "$oid": "64ad6a12ee78e892aa9c1ab8"
+    },
+    "process_status": false,
+    "process_count": 0,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2023-08-03T15:05:42.830Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-03T15:05:42.830Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64cbc2458a93f8bfd5d20aad"
+    },
+    "websiteURL": "https://edition.cnn.com",
+    "websiteDomain": "edition.cnn.com",
+    "name": "Shahid Rasheed",
+    "profileLink": "https://cp.adsy.com/marketer/platform/publisher-page/82055",
+    "createdBy": {
+      "$oid": "64ad6a12ee78e892aa9c1ab8"
+    },
+    "process_status": false,
+    "process_count": 0,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2023-08-03T15:05:42.831Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-03T15:05:42.831Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64cbc2458a93f8bfd5d20aae"
+    },
+    "websiteURL": "https://edition.cnn.com",
+    "websiteDomain": "edition.cnn.com",
+    "name": "M Nomi",
+    "profileLink": "https://cp.adsy.com/marketer/platform/publisher-page/74620",
+    "createdBy": {
+      "$oid": "64ad6a12ee78e892aa9c1ab8"
+    },
+    "process_status": false,
+    "process_count": 0,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2023-08-03T15:05:42.831Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-03T15:05:42.831Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64cbc2458a93f8bfd5d20aaf"
+    },
+    "websiteURL": "https://finance.sina.com.cn",
+    "websiteDomain": "finance.sina.com.cn",
+    "name": "Zhenming",
+    "profileLink": "https://cp.adsy.com/marketer/platform/publisher-page/100299",
+    "createdBy": {
+      "$oid": "64ad6a12ee78e892aa9c1ab8"
+    },
+    "process_status": false,
+    "process_count": 0,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2023-08-03T15:05:42.831Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-03T15:05:42.831Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64cbc2458a93f8bfd5d20ab0"
+    },
+    "websiteURL": "https://www.washingtonpost.com/",
+    "websiteDomain": "washingtonpost.com",
+    "name": "Jaisan Robert",
+    "profileLink": "https://cp.adsy.com/marketer/platform/publisher-page/97379",
+    "createdBy": {
+      "$oid": "64ad6a12ee78e892aa9c1ab8"
+    },
+    "process_status": false,
+    "process_count": 0,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2023-08-03T15:05:42.831Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-03T15:05:42.831Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64cbc2458a93f8bfd5d20ab1"
+    },
+    "websiteURL": "https://www.washingtonpost.com/",
+    "websiteDomain": "washingtonpost.com",
+    "name": "kane b",
+    "profileLink": "https://cp.adsy.com/marketer/platform/publisher-page/49274",
+    "createdBy": {
+      "$oid": "64ad6a12ee78e892aa9c1ab8"
+    },
+    "process_status": false,
+    "process_count": 0,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2023-08-03T15:05:42.831Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-03T15:05:42.831Z"
+    }
+  }
+]
