@@ -25,31 +25,39 @@ const DataTable = () => {
           </tr>
         </thead>
         <tbody>
-          {[...dataList].map((firstCol, firstColIndex) => {
-            return firstCol.vendorList.map((secondCol, secondColIndex) => {
-              return secondCol.varientList.map((thirdCol, thirdColIndex) => {
-                return (
-                  <tr>
-                    <td>
-                      {thirdColIndex === 0 &&
-                        secondColIndex === 0 &&
-                        firstCol.name}
-                    </td>
-                    <td>{thirdColIndex === 0 && secondCol.vendorName}</td>
-                    <td>{thirdCol.varientName}</td>
-                    <td className={styles.colStyle}>
-                      <Button
-                        variant="contained"
-                        onClick={() => handleEditData(firstColIndex)}
-                      >
-                        Edit
-                      </Button>
-                    </td>
-                  </tr>
-                );
+          {dataList.length > 0 ? (
+            [...dataList].map((firstCol, firstColIndex) => {
+              return firstCol.vendorList.map((secondCol, secondColIndex) => {
+                return secondCol.varientList.map((thirdCol, thirdColIndex) => {
+                  return (
+                    <tr key={Math.random()}>
+                      <td>
+                        {thirdColIndex === 0 &&
+                          secondColIndex === 0 &&
+                          firstCol.name}
+                      </td>
+                      <td>{thirdColIndex === 0 && secondCol.vendorName}</td>
+                      <td>{thirdCol.varientName}</td>
+                      <td className={styles.colStyle}>
+                        <Button
+                          variant="contained"
+                          onClick={() => handleEditData(firstColIndex)}
+                        >
+                          Edit
+                        </Button>
+                      </td>
+                    </tr>
+                  );
+                });
               });
-            });
-          })}
+            })
+          ) : (
+            <tr>
+              <td colSpan={4} style={{ textAlign: "center" }}>
+                No Records Present.
+              </td>
+            </tr>
+          )}
         </tbody>
       </table>
     </div>

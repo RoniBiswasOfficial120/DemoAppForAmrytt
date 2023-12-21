@@ -45,8 +45,10 @@ const EditForm = ({ index }) => {
 
   const handleDeleteData = () => {
     let oldDataList = [...DataList];
-    let newDataList = oldDataList.splice(index, 1);
-    dispatch(setFormData(newDataList));
+    oldDataList.splice(index, 1);
+    dispatch(setFormData(oldDataList));
+    console.log("newDataList-------->>>", oldDataList);
+    handleEditForm();
   };
 
   const handleEditForm = () => {

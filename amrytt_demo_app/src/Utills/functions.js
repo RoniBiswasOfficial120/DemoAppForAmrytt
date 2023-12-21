@@ -31,8 +31,8 @@ export const addNewVendor = (vendorList, setVendorList) => {
 
 export const deleteVendor = (vendorList, setVendorList, vendorIndex) => {
   let oldVendorList = [...vendorList];
-  let newVendorList = oldVendorList.splice(vendorIndex, 1);
-  setVendorList(newVendorList);
+  oldVendorList.splice(vendorIndex, 1);
+  setVendorList(oldVendorList);
 };
 
 export const updateVarientName = (

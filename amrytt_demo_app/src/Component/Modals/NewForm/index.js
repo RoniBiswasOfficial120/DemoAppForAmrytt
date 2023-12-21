@@ -16,7 +16,7 @@ const NewForm = () => {
   const [name, setName] = useState("");
   const [desc, setDesc] = useState("");
   const [vendorList, setVendorList] = useState([]);
-  
+
   const DataList = useSelector((state) => state.FormReducer);
   useEffect(() => {
     setName("");
@@ -32,6 +32,7 @@ const NewForm = () => {
   }, []);
 
   const handleSaveData = () => {
+    console.log("DataList", DataList);
     let oldDataList = [...DataList];
     oldDataList.push({ name: name, desc: desc, vendorList: vendorList });
     dispatch(setFormData(oldDataList));
@@ -45,7 +46,6 @@ const NewForm = () => {
 
   return (
     <div className={styles.modalArea}>
-      
       <div className={styles.closeButton} onClick={handleNewForm}>
         <HighlightOffIcon fontSize="medium" />
       </div>
